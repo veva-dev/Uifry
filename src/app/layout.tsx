@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Josefin_Sans } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-const bricolage = Josefin_Sans({
+const roboto = Roboto({
   variable: "--font-bricolage",
   subsets: ["latin"],
   display: "swap",
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bricolage.variable} antialiased`}>
+      <body className={`${roboto.variable} antialiased`}>
         <header>
           <Header />
         </header>

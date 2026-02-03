@@ -5,7 +5,7 @@ import Features from "./components/Features";
 
 export default function Home() {
   return (
-    <div className="lg:px-20 pt-50">
+    <div className="lg:px-20 md:px-18 sm:px-14 pt-50 max-w-7xl w-full mx-auto">
       <main className="">
         <div id="home">home</div>
         <div className="pt-400">
