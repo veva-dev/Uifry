@@ -9,3 +9,10 @@ export const navLinks: NavLink[] = [
   { name: "Pricing", href: "#pricing" },
   { name: "Features", href: "#features" },
 ];
+
+export const footerLinks = [
+  { name: "Home", href: "#home" },
+  { name: "About Us", href: "#about" },
+  { name: "Bookings", href: "#bookings" },
+  { name: "Blog", href: "#blog" },
+];
