@@ -147,11 +147,7 @@ export default function Header() {
     <motion.header
       initial={{ opacity: 0, y: -80 }}
       animate={{ opacity: 1, y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 w-full transition-all duration-500 px-4 sm:px-8 md:px-12 lg:px-20 ${
-        scrolled
-          ? "backdrop-blur-lg bg-white/95"
-          : "backdrop-blur-md bg-white/80"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 w-full transition-all duration-500 px-4 sm:px-8 md:px-12 lg:px-20 backdrop-blur-2xl`}
     >
       <nav className="max-w-7xl mx-auto w-full sm:px-14 py-4 md:px-6 lg:px-20">
         <div className="flex justify-between items-center">
