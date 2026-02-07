@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <div className="lg:px-20 md:px-12 sm:px-8 px-4 pt-50 max-w-7xl w-full mx-auto">
+    <div className="lg:px-20 md:px-12 sm:px-8 px-4 pt-24 max-w-7xl w-full mx-auto">
       <main>
         <div>
           <Hero />
