@@ -11,14 +11,14 @@ export default function Home() {
         <div>
           <Hero />
         </div>
+        <div className="pt-10">
+          <Features />
+        </div>
         <div className="pt-400">
           <AboutUs />
         </div>
         <div className="pt-400">
           <Pricing />
-        </div>
-        <div className="pt-400">
-          <Features />
         </div>
       </main>
     </div>
