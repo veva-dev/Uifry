@@ -17,7 +17,7 @@ export default function Home() {
         <div className="pt-30">
           <AboutUs />
         </div>
-        <div className="pt-400">
+        <div className="lg:pt-24 pt-80">
           <Pricing />
         </div>
       </main>
