@@ -14,7 +14,7 @@ export default function Home() {
         <div className="pt-10">
           <Features />
         </div>
-        <div className="pt-400">
+        <div className="pt-30">
           <AboutUs />
         </div>
         <div className="pt-400">
